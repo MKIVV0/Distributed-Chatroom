@@ -12,6 +12,8 @@ chatroom.
 A user has only a user_name field, so no authentication is required.
 If a user is already connected and some client tries to connect with the same username, the server will
 ask the client to insert another username.
+A message history is also preserved while the server is up, therefore, if a new client connects to the 
+chatroom, it'll be able to read the previous messages.
 
 # Next step
 Extend the program with a database that contains users' info and, therefore, allow user registration with 
